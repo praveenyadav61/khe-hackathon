@@ -1,0 +1,22 @@
+{
+  "name": "khe",
+  "version": "1.0.0",
+  "description": "Talk to dump peoples on video call",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodemon server"
+  },
+  "author": "Tanweer Ali (tanweerali908@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "opentok": "^2.12.1",
+    "path": "^0.12.7",
+    "utils": "^0.3.1"
+  }
+}
