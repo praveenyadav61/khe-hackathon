@@ -1,7 +1,3 @@
-//var apiKey = process.env.API_KEY;
-//var sessionId = "1_MX40NzM5NzQyMX5-MTYzODYxNjQyMzE3OH5WOGhtcHJNUitJemVTc09oS2pzSlB5Q09-fg";
-//var token = "T1==cGFydG5lcl9pZD00NzM5NzQyMSZzaWc9ODJiZDVhY2FlYzEwMmMxMWJiMDY2MzE3Y2QzMjEzZDNkZDc4Yjk1MDpzZXNzaW9uX2lkPTFfTVg0ME56TTVOelF5TVg1LU1UWXpPRFl4TmpReU16RTNPSDVXT0dodGNISk5VaXRKZW1WVGMwOW9TMnB6U2xCNVEwOS1mZyZjcmVhdGVfdGltZT0xNjM4NjE2NTEwJm5vbmNlPTAuNTY0NDE2ODMyNTc4MTA0JnJvbGU9cHVibGlzaGVyJmV4cGlyZV90aW1lPTE2Mzg2MjAxMTAmaW5pdGlhbF9sYXlvdXRfY2xhc3NfbGlzdD0=";
-
 // (optional) add server code here
 // (optional) add server code here
 var SERVER_BASE_URL = 'https://khe.herokuapp.com';
