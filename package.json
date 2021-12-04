@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon server"
   },
-  "author": "Tanweer Ali (tanweerali908@gmail.com)",
+  "author": "Tanweer Ali, Praveen Yadav, Praveen Dwivedi, Ameya Singh",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
