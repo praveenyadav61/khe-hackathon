@@ -1,7 +1,7 @@
 // (optional) add server code here
 // (optional) add server code here
 var SERVER_BASE_URL = 'https://khe.herokuapp.com';
-fetch(SERVER_BASE_URL + '/session/tanweer').then(function(res) {
+fetch(SERVER_BASE_URL + '/room/tanweer').then(function(res) {
   return res.json()
 }).then(function(res) {
   apiKey = res.apiKey;
