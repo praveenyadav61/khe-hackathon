@@ -10,8 +10,8 @@ router.get('/room', (req,res) => {
     res.redirect(`session/${uuidv4()}`);
 })
 
-router.get("/session/:room", (req, res) => {
-    res.render("room", { roomId: req.params.room });
+router.get("/session/:id", (req, res) => {
+    res.render("room", { roomId: req.params.id });
 });
 
 router.get("/sign-language-translator", (req, res) => {
