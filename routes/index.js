@@ -7,11 +7,15 @@ router.get('/', (req,res) => {
 })  
 
 router.get('/room', (req,res) => {
-    res.redirect(`/${uuidv4()}`);
+    res.redirect(`session/${uuidv4()}`);
 })
 
-router.get("/:room", (req, res) => {
+router.get("/session/:room", (req, res) => {
     res.render("room", { roomId: req.params.room });
+});
+
+router.get("/sign-language-translator", (req, res) => {
+    res.render('sign');
 });
 
 module.exports = router;
